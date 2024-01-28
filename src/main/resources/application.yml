@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://tikka-masala-develop.cdco6moq8qto.eu-north-1.rds.amazonaws.com:5432/postgres
+    username: postgres
+    password: postgres
+
+  jpa:
+    database: postgresql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
